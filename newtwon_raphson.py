@@ -35,6 +35,7 @@ def newton_raphson(x_init,f,accuracy):
     return [iterations,x_res]
 
 # Example for the function: f(x) = x - 3^(-x)
+# RUN THIS CODE TO SEE RESULTS
 
 x = Symbol('x')
 f = x - 3 **(-x)
